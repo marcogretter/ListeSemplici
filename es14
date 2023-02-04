@@ -1,3 +1,8 @@
+/*Definire una funzione foo che, data una ListaDiInteri ℓ ed un intero el,
+inserisce quest’ultimo tra i primi due elementi consecutivi che siano, rispettivamente,
+strettamente minore e strettamente maggiore di el. Se la lista ℓ non contiene due 
+elementi consecutivi siffatti, la procedura inserisce el in testa.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
