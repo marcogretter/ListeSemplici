@@ -27,6 +27,8 @@ int equipotenti ( Lista L1, Lista L2 )
             contL1++;
         if(L1->valore<L2->valore)
             contL2++;
+        L1=L1->next;
+        L2=L2->next;
     }
     if(contL1==contL2)
         return 1;
